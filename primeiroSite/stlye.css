@@ -1,0 +1,96 @@
+body{
+    background-color: #1E1E2F;
+}
+
+.titlesite{
+    font-family: Verdana,Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+nav{
+    background-color:#1a1a1a ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    margin: 4px;
+}
+#um:hover{
+    color: blue;
+}
+#dois:hover{
+    color:#f44336
+}
+#tres:hover{
+    color: #FFD700;
+}
+#quatro:hover{
+    color: #0d47a1;
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+    background-color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+.aranha:hover{
+    color: #f44336;
+}
+.morcego:hover{
+    color:#FFD700
+}
+.superaço:hover{
+    color: #0d47a1;
+}
+
+
+
+header {
+    position: fixed;  /* fixa o header no topo */
+    top: 0;           /* posição no topo da página */
+    left: 0;
+    width: 100%;      /* ocupa toda a largura */
+    background-color: #1E1E2F; /* ou a cor que você escolheu */
+    z-index: 1000;    /* garante que fique acima do conteúdo */
+    padding: 10px 0;  /* espaçamento interno */
+}
+main {
+    padding-top: 70px; /* ajuste conforme a altura do seu header */
+}
+footer {
+    position: fixed;   /* fixa o footer */
+    bottom: 0;         /* na parte inferior da tela */
+    left: 0;
+    width: 100%;       /* ocupa toda a largura */
+    background-color: #0d47a1 ; /* mesma cor do header ou outra que preferir */
+    text-align: center;
+    padding: 10px 0;   /* espaçamento interno */
+    z-index: 1000;     /* acima do conteúdo */
+}
+main {
+    padding-bottom: 60px; /* ajuste conforme a altura do footer */
+}
+
+
+.lemos{
+    color: #FFD700;
+    background-color: #0d47a1;
+}
+.lemos:hover{
+    color:#f44336;
+}
